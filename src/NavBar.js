@@ -30,22 +30,22 @@ class NavBar extends Component{
                 <ul className={ this.state.clicked ? "NavBar-Menu active" : "NavBar-Menu"}>
                     <li className='listItems'>
                     <i><FaHome/></i>
-                        <Link className='items' to='./'>Home</Link>
+                        <Link className='items' to='/'>Home</Link>
                         
                     </li>
                     <li className='listItems'>
                     <i ><MdContentPasteSearch /></i>
-                        <Link className='items' to='./about'>About</Link>
+                        <Link className='items' to='/about'>About</Link>
                     </li>
                     
                     <li className='listItems'>
                     <i><MdMedicalServices /></i>
-                        <Link className='items'  to='./service'>Service</Link>
+                        <Link className='items'  to='/service'>Service</Link>
 
                     </li>
                     <li className='listItems'>
                     <i><LuContact2 /></i>
-                        <Link className='items' to='./contact'>Contact</Link>
+                        <Link className='items' to='/contact'>Contact</Link>
                     </li>
 
                     <li>

@@ -2,7 +2,7 @@ import NavBar from "../NavBar";
 import Hero from "../components/Hero";
 import AboutImg from '../images/About.jpg'
 
-function About (){
+function About () {
     return(
         <>
         

@@ -14,7 +14,7 @@ function Home () {
         heroImg={HomeImg} 
         title="Your Journey Your Story" 
         para="Choose Your Favourite Destination"
-        link="/" 
+         
         buttonText="Travel Plan"
         btnClass="show"
         />
