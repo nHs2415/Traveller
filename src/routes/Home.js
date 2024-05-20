@@ -1,7 +1,7 @@
 
 import NavBar from '../NavBar';
 import Hero from '../components/Hero';
-import HomeImg from '../images/Home.jpg'
+import HomeImg from '../images/home.jpg'
 import "./HomeStyles.css";
 
 
