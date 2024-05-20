@@ -8,7 +8,7 @@ function About () {
         
             <NavBar />
             <Hero 
-            cName="homeHero"
+            cName="hero-mid"
             heroImg={AboutImg}
             title="About"
             />
