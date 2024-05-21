@@ -1,8 +1,11 @@
 
 import NavBar from '../NavBar';
+import Destination from '../components/Destinations';
 import Hero from '../components/Hero';
+import Trip from '../components/Trip';
 import HomeImg from '../images/home.jpg'
 import "./HomeStyles.css";
+
 
 
 function Home () {
@@ -18,6 +21,8 @@ function Home () {
         buttonText="Travel Plan"
         btnClass="show"
         />
+        <Destination />
+        <Trip />
     
         </>
     );
