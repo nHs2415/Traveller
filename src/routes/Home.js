@@ -4,6 +4,7 @@ import Destination from '../components/Destinations';
 import Hero from '../components/Hero';
 import Trip from '../components/Trip';
 import HomeImg from '../images/home.jpg'
+import Footer from '../components/Footer';
 import "./HomeStyles.css";
 
 
@@ -23,6 +24,7 @@ function Home () {
         />
         <Destination />
         <Trip />
+        <Footer/>
     
         </>
     );
